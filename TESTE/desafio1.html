@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let produto = prompt("Nome do produto");
+        let quantidade = prompt("Quantidade dos produtos");
+        let preco = prompt("Qual o preço?")
+
+        quantidade = Number(quantidade);
+        preco = Number(preco);
+
+        let calculo = quantidade * preco;
+
+        alert(`Você comprou ${quantidade} ${produto}, por ${preco} cada, totalizando R$${calculo.toFixed(2)}`)
+
+
+    </script>
+</body>
+</html>

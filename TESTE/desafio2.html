@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let disciplina = prompt("Qual a disciplina?");
+        let nota1 = prompt("Nota da primeira avaliação");
+        let nota2 = prompt("Nota da segunda avaliação");
+        let nota3 = prompt("Nota da terceira avaliação");
+
+        nota1 = Number(nota1)
+        nota2 = Number(nota2)
+        nota3 = Number(nota3)
+        let calculo = nota1 + nota2 + nota3;
+        let total = calculo / 3;
+
+        alert(`Disciplina ${disciplina}, nota da primeira avaliação ${nota1}, nota da segunda avaliação ${nota2}, nota da terceira avaliação ${nota3}. Sua média é: ${total}`)
+
+
+    </script>
+</body>
+</html>
